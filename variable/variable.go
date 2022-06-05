@@ -16,4 +16,15 @@ func main() {
 
 	b := 1
 	fmt.Println(b)
+
+	//constant
+	const xx string = "constant"
+	// error
+	//xx = "suvo"
+	fmt.Println(xx)
+
+	const n = 500000000
+	const d = 6e+11
+	fmt.Println(int64(d))
+	fmt.Println(n)
 }
