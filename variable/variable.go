@@ -10,7 +10,10 @@ func main() {
 	x = 12.3
 	fmt.Println(x)
 
-	// variable declaration shorthand :=
+	// variable declaration shorthand but you not set a type variable shorthand automatically known variable type (:=)
 	f := "apple"
 	fmt.Println(f)
+
+	b := 1
+	fmt.Println(b)
 }
