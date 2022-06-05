@@ -9,4 +9,8 @@ func main() {
 	var x float32
 	x = 12.3
 	fmt.Println(x)
+
+	// variable declaration shorthand :=
+	f := "apple"
+	fmt.Println(f)
 }
